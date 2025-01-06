@@ -31,6 +31,10 @@ return {
 				},
 				capabilities = capabilities,
 			})
+
+			lspconfig.gdscript.setup({
+				capabilities = capabilities,
+			})
 		end,
 	},
 }
